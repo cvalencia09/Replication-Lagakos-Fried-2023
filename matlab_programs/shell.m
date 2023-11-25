@@ -6,11 +6,12 @@
 % extension. Computes counterfactual experiments. Calculates tables and
 % figures. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+clear all 
 tic
 % Run the programs from the outermost folder in the replication package
 % (click "add to path" after hitting run)
-reppath = pwd; %Outermost folder in replication pacakage
+%reppath = pwd; %Outermost folder in replication pacakage
+reppath = 'C:\Users\Cristian\Documents\GitHub\Replication-Lagakos-Fried-2023';
 bpath = strcat(reppath, '/matlab_programs'); %path to folder with matlab programs
 tablePath = strcat(reppath, '/tables'); %path to folder where tables are stored
 figpath = strcat(reppath, '/figures'); %path to folder where figures are stored
